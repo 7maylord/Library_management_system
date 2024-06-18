@@ -1,6 +1,6 @@
-const Book = require('./book.js'); 
-const User = require('./user.js'); 
-const Library = require('./library.js'); 
+const Book = require('./classes/book.js'); 
+const User = require('./classes/user.js'); 
+const Library = require('./classes/library.js'); 
 
 describe('Library Management System', () => {
     let library, book1, book2, book3, user;
